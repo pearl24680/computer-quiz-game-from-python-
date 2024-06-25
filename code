@@ -1,0 +1,23 @@
+print("Welcome to my computer quiz!")
+playing = input("Do you want to play? ")
+if playing.lower() != "yes":
+    quit()
+print("Okay! Let's play :)")
+answer = input("What does CPU stands for? ")
+if answer =="central processsing unit": # Removed extra space before 'if'
+  print("Correct!")
+else:
+    print("Incorrect!")
+answer = input("What does gPU stands for? ")
+if answer =="graphics processing  unit": # Removed extra space before 'if'
+  print("Correct!")
+else:
+    print("Incorrect!")
+    answer = input("What does RAM stands for? ")
+if answer =="Random access memory": # Removed extra space before 'if'
+  print("Correct!")
+else:
+    print("Incorrect!")
+print("You got all your questions")
+print("thank you")
+
